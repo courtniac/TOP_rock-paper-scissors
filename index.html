@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="./game.js"></script>
+    <style>
+    #buttons {
+        margin: 12px 0;
+    }
+    </style>
 </head>
+<body>
+    <h1>Let's play Rock, Paper, Scissors!</h1>
+    <div id="score">Computer: <span id="computerScore">0</span> | You: <span id="yourScore">0</span></div>
+    <div id="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div id="result"></div>
+</body>
+<script src="./game.js"></script>
 </html>
